@@ -1,0 +1,20 @@
+
+.full-logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.full-logo-home{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.full-logo-about{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-left: 46%;
+    margin-bottom: 30px;
+}
