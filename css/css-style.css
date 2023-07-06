@@ -1007,6 +1007,18 @@ ul.social-buttons li a:active {
     font-size: 12px;
 }
 
+.whatsapp-icon {
+    z-index: 99999999 !important;
+    position: fixed;
+    cursor: pointer;
+    box-sizing: border-box;
+    bottom: 20px;
+    right: auto;
+    min-width: 40px;
+    right: 5.0000%;
+    left: auto;
+}
+
 .dropdown-menu > li > a:focus, .dropdown-menu > li > a:hover {
     color: rgba(255, 255, 255, 0.60);
     text-decoration: none;
