@@ -1287,9 +1287,14 @@ ul.social-buttons li a:active {
     line-height: 3.3;
     font-weight: 600;
     letter-spacing: 1px;
-    transition: color 0.5s ease 0s;
+    transition: color 1s ease 0s;
     border: 3px solid transparent;
     font-size: 13px;
+}
+.navbar-default .navbar-nav>li>a:hover{
+    transform:  translateY(-5px);
+
+    border-bottom: 3px solid #0ca7f9;
 }
 
 .navbar-default .navbar-nav>li>a:focus,
@@ -1300,7 +1305,6 @@ ul.social-buttons li a:active {
     -webkit-transition: color 0.5s ease 0s;
     -moz-transition: color 0.5s ease 0s;
     -o-transition: color 0.5s ease 0s;
-    border-bottom: 3px solid #0ca7f9;
 }
 
 .navbar-default .navbar-nav>.open>a,
