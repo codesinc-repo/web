@@ -503,6 +503,9 @@ h6 {
     font-weight: 100;
     color: #fff;
 }
+h3{
+    font-weight: 700;
+}
 
 .lead {
     font-size: 23px;
@@ -517,9 +520,9 @@ h6 {
 }
 
 .section-title h2 {
-    font-family: 'Montserrat', sans-serif;
+    /* font-family: 'Montserrat', sans-serif; */
     font-size: 28px;
-    font-weight: 400;
+    font-weight: 700;
     color: #fff;
     margin: 0;
     line-height: .80;
@@ -1263,7 +1266,7 @@ ul.social-buttons li a:active {
 
 .navbar-brand {
     height: auto;
-    padding: 15px 15px 0 15px;
+    padding: 3px 15px 0 15px;
 }
 
 .navbar {
@@ -1964,6 +1967,7 @@ ul.social-buttons li a:active {
 .team-member-box h3 {
     margin-top: 0;
     margin-bottom: 3px;
+    font-weight: 600;
 }
 
 .team-member-box-2 h3 {
@@ -2109,6 +2113,12 @@ span.portfolio-hover {
 
 .portfolio-image-holder {
     position: relative;
+}
+
+.portfolio-image-holder-carousel {
+    width: 375px;
+    height: 167px !important;
+
 }
 
 .portfolio-image-holder:before {
@@ -2961,14 +2971,14 @@ footer hr {
 
 .dis-heading {
     text-align: center;
-    background-color:#272727;
+    background-color: #0ca7f9;
     color: white;
     width: 100%;
-    height: 70px;
     padding: 10px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
     font-size: 20px;
+    margin-bottom: 28px;
 }
 
 .side-address {
@@ -2979,16 +2989,114 @@ footer hr {
 
 .distri-main {
     width: 100% !important;
-   background-color: #272727;
+    background-color: #272727;
     height: 340px !important;
+    border-radius: 12px;
+    box-shadow: 0px -1px 6px #9b9b9b66;
 }
 
 .dis-img {
     color: white;
     border: 2px solid white;
-    border-radius: 50px;
+    /* border-radius: 50px;
     width: 42px;
-    text-align: center;
+    text-align: center; */
     padding: 6px;
     font-size: 27px;
+    border-radius: 50%;
+}
+
+.swiper.portfolio-slider .swiper-button-next,
+.swiper.portfolio-slider .swiper-button-prev {
+    height: 40px !important;
+    width: 40px !important;
+    background-color: #2a2a2a;
+    border-radius: 50%;
+    color: #fff !important;
+    top: 22px;
+    right: 5% !important;
+}
+
+
+.swiper.portfolio-slider .swiper-button-prev,
+.swiper.portfolio-slider .swiper-rtl .swiper-button-next {
+    left: auto;
+    right: 9% !important;
+}
+.owl-carousel .owl-item img{
+    height: 171px !important;
+}
+
+@media (max-width:1024px) {
+    .largwidth {
+        width: 21% !important;
+        margin-left:16px !important;
+        float: left !important;
+    }
+
+    .largwidth1 {
+        width: 19% !important;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    .Distri-Austrial {
+        width: 44% !important;
+        float: left;
+    }
+
+    .mediawidth {
+        float: left;
+        width: 70% !important;
+    }
+
+    .mediawidth1 {
+        float: left;
+        width: 20% !important;
+    }
+
+    .mediawidth2 {
+        width: 27% !important;
+        float: left;
+    }
+
+    .mediawidth3 {
+        float: left;
+        width: 21% !important;
+    }
+
+    .mediawidth4 {
+        width: 70% !important;
+        float: left !important;
+    }
+
+    .mediawidth5 {
+        width: 20% !important;
+        float: left;
+    }
+
+    .mediawidth6 {
+        width: 75% !important;
+        float: left;
+    }
+
+    .mediawidth7 {
+        width: 24% !important;
+        float: left;
+    }
+
+    .mediawidth8 {
+        width: 70% !important;
+        float: left;
+        margin-left: -11px !important;
+    }
+}
+
+@media (max-width:425px) {
+    .smallwidth {
+        width: 95% !important;
+    }
+
 }
