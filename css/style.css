@@ -406,7 +406,8 @@ display: none ;
  }
 
  .navbar-custom .navbar-collapse {
-     border-color: rgba(255, 255, 255, .02)
+     border-color: rgba(255, 255, 255, .02);
+     background-color: #3e3e3e;
  }
 
  .navbar-custom .navbar-toggle {
@@ -465,7 +466,7 @@ display: none ;
      }
 
      .navbar-custom.affix {
-        background-color: rgba(28, 26, 26, 0.8) !important;
+        /* background-color: rgba(28, 26, 26, 0.8) !important; */
          color: #ffffff !important;
          /* opacity: 1; */
          padding: 10px 0
